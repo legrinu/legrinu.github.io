@@ -27,6 +27,19 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 minimal_mistakes_skin: "dark"
 search: true
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+
+
 author:
   name: "Leon Mikolajczak"
   avatar: "/assets/images/bio-photo.jpg"
