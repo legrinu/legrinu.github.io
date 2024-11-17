@@ -50,8 +50,7 @@ author:
       url: "https://www.linkedin.com/in/leon-mikolajczak/"
 
 # Build settings
-url: "https://legrinu.github.io/"
-baseurl: "/"
+url: "https://legrinu.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
